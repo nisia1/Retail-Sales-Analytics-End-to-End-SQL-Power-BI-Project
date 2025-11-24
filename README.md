@@ -83,7 +83,8 @@ SUMX(OrderItems, (OrderItems[Quantity] * OrderItems[UnitPrice]) -
 
 Dashboard Pages
 
-1. Executive Summarry
+1. Executive Summary ## ⭐ Executive Summary
+![Executive Summary](images/executive_summary.png)
    
 Total Revenue: $3218
 Completed Revenue: $2709
@@ -96,7 +97,8 @@ Higher AOV for completed orders indicates significant revenue upside from improv
 Revenue is driven by higher-value purchases, especially premium furniture.
 Opportunities exist to reduce order fallout and lift conversion rates.
 
-2. Product Analysis
+2. Product Analysis ## ⭐ Product Analysis
+![Product Analysis](images/product_analysis.png)
    
 Visuals:
 Quantity Sold by Product
@@ -108,7 +110,8 @@ Standing Desk generates the highest revenue and profit, making it the core profi
 Furniture outperforms accessories in profitability.
 Mid-tier products (Keyboard & Headphones) show stable, balanced performance.
 
-3. Customer Analysis
+3. Customer Analysis ## ⭐ Customer Analysis
+![Customer Analysis](images/customer_analysis.png)
 
 Visuals:
 Revenue by Customer
