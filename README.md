@@ -4,6 +4,7 @@ This project demonstrates a full end-to-end Business Intelligence workflow using
 The project showcases my ability to work across the entire analytics pipeline — from data engineering to visual analytics to executive storytelling.
 
 Tools & Technologies
+
 MySQL Workbench – Database design, SQL development
 SQL – Joins, constraints, DDL, DML, data validation
 Power BI Desktop – Data modeling, relationships, visuals
@@ -12,6 +13,7 @@ Excel – Supplementary data enrichment
 GitHub – Version control and portfolio hosting
 
 Skills Demonstrated
+
 ✔ SQL Development
 ✔ Database Schema Design (3NF)
 ✔ Star Schema Modeling
@@ -24,6 +26,7 @@ Skills Demonstrated
 ✔ End-to-End BI Solution Architecture
 
 Database Architecture
+
 The SQL database consists of four normalized tables:
 Customers
 Orders
@@ -33,6 +36,7 @@ I created and enforced primary keys, foreign keys, and referential integrity.
 The enriched product cost table was added to enable profit calculations.
 
 Representative SQL Code (Schema Example)
+
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY AUTO_INCREMENT,
     ProductName VARCHAR(255),
@@ -40,7 +44,9 @@ CREATE TABLE Products (
     UnitPrice DECIMAL(10,2),
     Cost DECIMAL(10,2)
 );
+
 SQL Joins for Validation
+
 SELECT 
     c.FullName,
     o.OrderID,
@@ -51,12 +57,14 @@ JOIN OrderItems oi ON o.OrderID = oi.OrderID
 GROUP BY c.FullName, o.OrderID;
 
 Power BI Data Model
+
 I implemented a star schema:
 Fact Table: OrderItems
 Dimension Tables: Customers, Products, Orders
 Correct cardinalities (1:* and *:1) and cross-filter behavior were configured to support DAX calculations.
 
 DAX Measures (Examples)
+
 Total Revenue = SUMX(OrderItems, OrderItems[Quantity] * OrderItems[UnitPrice])
 
 Completed Revenue = CALCULATE([Total Revenue], Orders[Status] = "Completed")
@@ -74,7 +82,9 @@ SUMX(OrderItems, (OrderItems[Quantity] * OrderItems[UnitPrice]) -
                  (OrderItems[Quantity] * OrderItems[Cost]))
 
 Dashboard Pages
-1. Executive Summary
+
+1. Executive Summarry
+   
 Total Revenue: $3218
 Completed Revenue: $2709
 AOV (All Orders): $215
@@ -87,6 +97,7 @@ Revenue is driven by higher-value purchases, especially premium furniture.
 Opportunities exist to reduce order fallout and lift conversion rates.
 
 2. Product Analysis
+   
 Visuals:
 Quantity Sold by Product
 Revenue by Product
@@ -98,6 +109,7 @@ Furniture outperforms accessories in profitability.
 Mid-tier products (Keyboard & Headphones) show stable, balanced performance.
 
 3. Customer Analysis
+
 Visuals:
 Revenue by Customer
 Total Orders by Customer
