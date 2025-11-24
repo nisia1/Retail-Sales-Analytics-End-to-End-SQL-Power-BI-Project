@@ -120,6 +120,7 @@ Frequent purchasers tend to be the highest spenders.
 Wide variance in spending suggests opportunities for targeted engagement and retention efforts.
 
 End-to-End Workflow Summary
+
 Designed a normalized SQL database
 Loaded and validated data with SQL
 Exported and connected database to Power BI
@@ -129,6 +130,7 @@ Built executive summary and analysis dashboards
 Delivered actionable business insights
 
 Business Impact
+
 This dashboard enables leaders to:
 Identify top-performing products
 Understand customer value distribution
