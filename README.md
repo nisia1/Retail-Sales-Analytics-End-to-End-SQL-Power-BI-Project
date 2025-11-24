@@ -91,60 +91,63 @@ Completed Revenue: $2709
 AOV (All Orders): $215
 AOV Completed: $301
 Order Count: 15 (9 completed)
-Executive Insights
-Completed orders drive 84% of revenue, showing strong fulfillment performance.
-Higher AOV for completed orders indicates significant revenue upside from improved order completion.
-Revenue is driven by higher-value purchases, especially premium furniture.
-Opportunities exist to reduce order fallout and lift conversion rates.
+
+Executive Insights:
+-Completed orders drive 84% of revenue, showing strong fulfillment performance.
+-Higher AOV for completed orders indicates significant revenue upside from improved order completion.
+-Revenue is driven by higher-value purchases, especially premium furniture.
+-Opportunities exist to reduce order fallout and lift conversion rates.
 
 2. Product Analysis ## ⭐ Product Analysis
 ![Product Analysis](images/product_analysis.png)
    
 Visuals:
-Quantity Sold by Product
-Revenue by Product
-Profit by Product
-Product Insights (Concise)
-Wireless Mouse sells the most units but produces the lowest revenue and profit, confirming it is a low-margin product.
-Standing Desk generates the highest revenue and profit, making it the core profit driver.
-Furniture outperforms accessories in profitability.
-Mid-tier products (Keyboard & Headphones) show stable, balanced performance.
+-Quantity Sold by Product
+-Revenue by Product
+-Profit by Product
+
+Product Insights:
+-Wireless Mouse sells the most units but produces the lowest revenue and profit, confirming it is a low-margin product.
+-Standing Desk generates the highest revenue and profit, making it the core profit driver.
+-Furniture outperforms accessories in profitability.
+-Mid-tier products (Keyboard & Headphones) show stable, balanced performance.
 
 3. Customer Analysis ## ⭐ Customer Analysis
 ![Customer Analysis](images/customer_analysis.png)
 
 Visuals:
-Revenue by Customer
-Total Orders by Customer
-Revenue Contribution (%)
-Customer Insights
+-Revenue by Customer
+-Total Orders by Customer
+-Revenue Contribution (%)
+
+Customer Insights:
 High-value customers contribute a disproportionate share of revenue.
 Frequent purchasers tend to be the highest spenders.
 Wide variance in spending suggests opportunities for targeted engagement and retention efforts.
 
 End-to-End Workflow Summary
 
-Designed a normalized SQL database
-Loaded and validated data with SQL
-Exported and connected database to Power BI
-Created star schema with correct relationships
-Developed DAX measures for revenue, profit, and KPIs
-Built executive summary and analysis dashboards
-Delivered actionable business insights
+-Designed a normalized SQL database
+-Loaded and validated data with SQL
+-Exported and connected database to Power BI
+-Created star schema with correct relationships
+-Developed DAX measures for revenue, profit, and KPIs
+-Built executive summary and analysis dashboards
+-Delivered actionable business insights
 
 Business Impact
 
 This dashboard enables leaders to:
-Identify top-performing products
-Understand customer value distribution
-Improve revenue forecasting
-Prioritize high-margin items
-Reduce order fallout
-Enhance customer engagement
+-Identify top-performing products
+-Understand customer value distribution
+-Improve revenue forecasting
+-Prioritize high-margin items
+-Reduce order fallout
+-Enhance customer engagement
 
-Project Files
-SQL schema (.sql dump)
-Power BI PBIX file
-Product enrichment Excel file
-README (this file)
-Dashboard screenshots
+Project Files:
+-SQL schema (.sql dump)
+-Power BI PBIX file
+-Product enrichment Excel file
+-README (this file)
+-Dashboard screenshots
