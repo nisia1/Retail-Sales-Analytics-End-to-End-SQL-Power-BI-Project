@@ -28,10 +28,10 @@ Skills Demonstrated
 Database Architecture
 
 The SQL database consists of four normalized tables:
-Customers
-Orders
-OrderItems
-Products
+✔Customers
+✔Orders
+✔OrderItems
+✔Products
 I created and enforced primary keys, foreign keys, and referential integrity.
 The enriched product cost table was added to enable profit calculations.
 
@@ -102,23 +102,23 @@ Executive Insights:
 ![Product Analysis](images/product_analysis.png)
    
 Visuals:
--Quantity Sold by Product
--Revenue by Product
--Profit by Product
+✔Quantity Sold by Product
+✔Revenue by Product
+✔Profit by Product
 
 Product Insights:
--Wireless Mouse sells the most units but produces the lowest revenue and profit, confirming it is a low-margin product.
--Standing Desk generates the highest revenue and profit, making it the core profit driver.
--Furniture outperforms accessories in profitability.
--Mid-tier products (Keyboard & Headphones) show stable, balanced performance.
+✔Wireless Mouse sells the most units but produces the lowest revenue and profit, confirming it is a low-margin product.
+✔Standing Desk generates the highest revenue and profit, making it the core profit driver.
+✔Furniture outperforms accessories in profitability.
+✔Mid-tier products (Keyboard & Headphones) show stable, balanced performance.
 
 3. Customer Analysis ## ⭐ Customer Analysis
 ![Customer Analysis](images/customer_analysis.png)
 
 Visuals:
--Revenue by Customer
--Total Orders by Customer
--Revenue Contribution (%)
+✔Revenue by Customer
+✔Total Orders by Customer
+✔Revenue Contribution (%)
 
 Customer Insights:
 High-value customers contribute a disproportionate share of revenue.
@@ -127,27 +127,27 @@ Wide variance in spending suggests opportunities for targeted engagement and ret
 
 End-to-End Workflow Summary
 
--Designed a normalized SQL database
--Loaded and validated data with SQL
--Exported and connected database to Power BI
--Created star schema with correct relationships
--Developed DAX measures for revenue, profit, and KPIs
--Built executive summary and analysis dashboards
--Delivered actionable business insights
+✔Designed a normalized SQL database
+✔Loaded and validated data with SQL
+✔Exported and connected database to Power BI
+✔Created star schema with correct relationships
+✔Developed DAX measures for revenue, profit, and KPIs
+✔Built executive summary and analysis dashboards
+✔Delivered actionable business insights
 
 Business Impact
 
 This dashboard enables leaders to:
--Identify top-performing products
--Understand customer value distribution
--Improve revenue forecasting
--Prioritize high-margin items
--Reduce order fallout
--Enhance customer engagement
+✔Identify top-performing products
+✔Understand customer value distribution
+✔Improve revenue forecasting
+✔Prioritize high-margin items
+✔Reduce order fallout
+✔Enhance customer engagement
 
 Project Files:
--SQL schema (.sql dump)
--Power BI PBIX file
--Product enrichment Excel file
--README (this file)
--Dashboard screenshots
+✔SQL schema (.sql dump)
+✔Power BI PBIX file
+✔Product enrichment Excel file
+✔README (this file)
+✔Dashboard screenshots
